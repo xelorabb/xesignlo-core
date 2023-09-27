@@ -1,0 +1,15 @@
+{
+  "name": "@xesignlo/core",
+  "version": "0.0.2",
+  "description": "xesignlo core",
+  "keywords": ["style", "ui"],
+  "author": "xelorabb",
+  "license": "MIT",
+  "repository": { 
+    "type": "git", 
+    "url": "https://github.com/xelorabb/xesignlo-core.git" 
+  }, 
+  "devDependencies": {
+    "sass": "^1.68.0"
+  }
+}

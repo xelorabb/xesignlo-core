@@ -1,0 +1,42 @@
+.btn {
+  &--primary {
+    color: $btn-primary-color;
+    background-color: $btn-primary-background-color;
+    border: $btn-primary-border;
+    font-weight: $btn-primary-font-weight;
+    
+    &:hover {
+      background-color: $btn-primary-hover-background-color;
+    }
+  }
+
+  &--md {
+    font-size: $btn-md-font-size;
+    text-decoration: $btn-md-text-decoration;
+
+    padding-top: $btn-md-padding-top;
+    padding-bottom: $btn-md-padding-bottom;
+    padding-left: $btn-md-padding-left;
+    padding-right: $btn-md-padding-right;
+
+    border-top-left-radius: $btn-md-border-radius-top-left;
+    border-top-right-radius: $btn-md-border-radius-top-right;
+    border-bottom-left-radius: $btn-md-border-radius-bottom-left;
+    border-bottom-right-radius: $btn-md-border-radius-bottom-right;
+  }
+
+  &--lg {
+    font-size: $btn-lg-font-size;
+    text-decoration: $btn-lg-text-decoration;
+    
+    padding-top: $btn-lg-padding-top;
+    padding-bottom: $btn-lg-padding-bottom;
+    padding-left: $btn-lg-padding-left;
+    padding-right: $btn-lg-padding-right;
+
+    border-top-left-radius: $btn-lg-border-radius-top-left;
+    border-top-right-radius: $btn-lg-border-radius-top-right;
+    border-bottom-left-radius: $btn-lg-border-radius-bottom-left;
+    border-bottom-right-radius: $btn-lg-border-radius-bottom-right;
+  }
+}

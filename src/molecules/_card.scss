@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  
+  color: $card-color-text;
+  background-color: $card-color-background;
+
+  border-width: $card-border-width;
+  border-color: $card-border-color;
+  border-style: $card-border-style;
+  border-top-left-radius: $card-border-radius-top-left;
+  border-top-right-radius: $card-border-radius-top-right;
+  border-bottom-left-radius: $card-border-radius-bottom-left;
+  border-bottom-right-radius: $card-border-radius-bottom-right;
+
+  .card-header {
+    border-bottom: $card-header-border;
+  }
+  
+  .card-footer {
+    border-top: $card-footer-border;
+  }
+}

@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: $root-font;
+}
+
+@import "src/variables/variables";
+@import "src/ions/ions";
+@import "src/atoms/atoms";
+@import "src/molecules/molecules";

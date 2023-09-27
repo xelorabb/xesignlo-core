@@ -1,0 +1,64 @@
+@function space($i) {
+  @return calc($spacing * $i);
+}
+
+@mixin gen_spacing_classes() {
+  @for $i from 0 through 16 {
+    // padding classes
+    .pl-#{$i},
+    .px-#{$i},
+    .p-#{$i} {
+      padding-left: space($i);
+    }
+
+    .pr-#{$i},
+    .px-#{$i},
+    .p-#{$i} {
+      padding-right: space($i);
+    }
+
+    .pt-#{$i},
+    .py-#{$i},
+    .p-#{$i} {
+      padding-top: space($i);
+    }
+
+    .pb-#{$i},
+    .py-#{$i},
+    .p-#{$i} {
+      padding-bottom: space($i);
+    }
+    
+    // margin classes
+    .ml-#{$i},
+    .mx-#{$i},
+    .m-#{$i} {
+      margin-left: space($i);
+    }
+
+    .mr-#{$i},
+    .mx-#{$i},
+    .m-#{$i} {
+      margin-right: space($i);
+    }
+
+    .mt-#{$i},
+    .my-#{$i},
+    .m-#{$i} {
+      margin-top: space($i);
+    }
+
+    .mb-#{$i},
+    .my-#{$i},
+    .m-#{$i} {
+      margin-bottom: space($i);
+    }
+
+    // gap classes
+    .gap-#{$i} {
+      gap: space($i);
+    }
+  }
+}
+
+@include gen_spacing_classes();

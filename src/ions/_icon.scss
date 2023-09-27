@@ -1,0 +1,8 @@
+.icon {
+  @each $name, $size in $icon-sizes {
+    &--#{$name} {
+      width: $size;
+      height: $size;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@mixin gen_font($font-name, $font-class, $weights) {
+  @each $weight in $weights {
+    @font-face {
+      font-family: quote($font-name);
+      font-style: normal;
+      font-weight: $weight;
+      src: url('../fonts/#{$font-class}-#{$weight}.woff2') format('woff2');
+    }
+
+    @font-face {
+      font-family: quote($font-name);
+      font-style: italic;
+      font-weight: $weight;
+      src: url('../fonts/#{$font-class}-#{$weight}-italic.woff2') format('woff2');
+    }
+
+    .font-#{$font-class}-#{$weight} {
+      font-family: quote($font-name);
+      font-style: normal;
+      font-weight: $weight;
+    }
+
+    .font-#{$font-class}-#{$weight}-italic {
+      font-family: quote($font-name);
+      font-style: italic;
+      font-weight: $weight;
+    }
+  }
+}

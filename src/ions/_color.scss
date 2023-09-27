@@ -1,0 +1,22 @@
+@mixin gen_color_classes($colors) {
+  @each $name, $color in $colors {
+    .fg-#{$name} {
+      color: $color;
+    }
+
+    .bg-#{$name} {
+      background-color: $color;
+    }
+  }
+}
+
+@include gen_color_classes($neutral-colors);
+@include gen_color_classes($primary-colors);
+@include gen_color_classes($secondary-colors);
+@include gen_color_classes($tertiary-colors);
+@include gen_color_classes($accent-colors);
+@include gen_color_classes($info-colors);
+@include gen_color_classes($success-colors);
+@include gen_color_classes($warning-colors);
+@include gen_color_classes($error-colors);
+@include gen_color_classes($special-colors);

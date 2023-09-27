@@ -1,0 +1,33 @@
+.input-field {
+  color: $input-field-color;
+  background-color: $input-field-background-color;
+  
+  padding-top: $input-field-padding-top;
+  padding-bottom: $input-field-padding-bottom;
+  padding-left: $input-field-padding-left;
+  padding-right: $input-field-padding-right;
+
+  border: $input-field-border;
+  border-top-left-radius: $input-field-border-radius-top-left;
+  border-top-right-radius: $input-field-border-radius-top-right;
+  border-bottom-left-radius: $input-field-border-radius-bottom-left;
+  border-bottom-right-radius: $input-field-border-radius-bottom-right;
+  
+  outline: $input-field-outline;
+
+  &--info {
+    border: $input-field-info-border;
+  }
+
+  &--success {
+    border: $input-field-success-border;
+  }
+
+  &--warning {
+    border: $input-field-warning-border;
+  }
+
+  &--error {
+    border: $input-field-error-border;
+  }
+}

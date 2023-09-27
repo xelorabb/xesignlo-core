@@ -1,0 +1,104 @@
+// Neutral Colors
+$neutral-colors: (
+  "neutral-darkest":     $color-neutral-darkest,
+  "neutral-darker":      $color-neutral-darker,
+  "neutral-dark":        $color-neutral-dark,
+  "neutral":             $color-neutral-base,
+  "neutral-light":       $color-neutral-light,
+  "neutral-lighter":     $color-neutral-lighter,
+  "neutral-lightest":    $color-neutral-lightest
+);
+
+// Primary Colors
+$primary-colors: (
+  "primary-darkest":     $color-primary-darkest,
+  "primary-darker":      $color-primary-darker,
+  "primary-dark":        $color-primary-dark,
+  "primary":             $color-primary-base,
+  "primary-light":       $color-primary-light,
+  "primary-lighter":     $color-primary-lighter,
+  "primary-lightest":    $color-primary-lightest
+);
+
+// Secondary Colors
+$secondary-colors: (
+  "secondary-darkest":   $color-secondary-darkest,
+  "secondary-darker":    $color-secondary-darker,
+  "secondary-dark":      $color-secondary-dark,
+  "secondary":           $color-secondary-base,
+  "secondary-light":     $color-secondary-light,
+  "secondary-lighter":   $color-secondary-lighter,
+  "secondary-lightest":  $color-secondary-lightest
+);
+
+// Tertiary Colors
+$tertiary-colors: (
+  "tertiary-darkest":    $color-tertiary-darkest,
+  "tertiary-darker":     $color-tertiary-darker,
+  "tertiary-dark":       $color-tertiary-dark,
+  "tertiary":            $color-tertiary-base,
+  "tertiary-light":      $color-tertiary-light,
+  "tertiary-lighter":    $color-tertiary-lighter,
+  "tertiary-lightest":   $color-tertiary-lightest
+);
+
+// Accent Colors
+$accent-colors: (
+  "accent-darkest":      $color-accent-darkest,
+  "accent-darker":       $color-accent-darker,
+  "accent-dark":         $color-accent-dark,
+  "accent":              $color-accent-base,
+  "accent-light":        $color-accent-light,
+  "accent-lighter":      $color-accent-lighter,
+  "accent-lightest":     $color-accent-lightest
+);
+
+// Info Colors
+$info-colors: (
+  "info-darkest":       $color-info-darkest,
+  "info-darker":        $color-info-darker,
+  "info-dark":          $color-info-dark,
+  "info":               $color-info-base,
+  "info-light":         $color-info-light,
+  "info-lighter":       $color-info-lighter,
+  "info-lightest":      $color-info-lightest
+);
+
+// Success Colors
+$success-colors: (
+  "success-darkest":     $color-success-darkest,
+  "success-darker":      $color-success-darker,
+  "success-dark":        $color-success-dark,
+  "success":             $color-success-base,
+  "success-light":       $color-success-light,
+  "success-lighter":     $color-success-lighter,
+  "success-lightest":    $color-success-lightest
+);
+
+// Warning Colors
+$warning-colors: (
+  "warning-darkest":     $color-warning-darkest,
+  "warning-darker":      $color-warning-darker,
+  "warning-dark":        $color-warning-dark,
+  "warning":             $color-warning-base,
+  "warning-light":       $color-warning-light,
+  "warning-lighter":     $color-warning-lighter,
+  "warning-lightest":    $color-warning-lightest
+);
+
+// Error Colors
+$error-colors: (
+  "error-darkest":       $color-error-darkest,
+  "error-darker":        $color-error-darker,
+  "error-dark":          $color-error-dark,
+  "error":               $color-error-base,
+  "error-light":         $color-error-light,
+  "error-lighter":       $color-error-lighter,
+  "error-lightest":      $color-error-lightest
+);
+
+$special-colors: (
+  "transparent": transparent,
+  "black": #000,
+  "white": #fff
+);
