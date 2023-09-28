@@ -1,33 +1,129 @@
 .input-field {
   color: $input-field-color;
   background-color: $input-field-background-color;
-  
-  padding-top: $input-field-padding-top;
-  padding-bottom: $input-field-padding-bottom;
-  padding-left: $input-field-padding-left;
-  padding-right: $input-field-padding-right;
-
   border: $input-field-border;
-  border-top-left-radius: $input-field-border-radius-top-left;
-  border-top-right-radius: $input-field-border-radius-top-right;
-  border-bottom-left-radius: $input-field-border-radius-bottom-left;
-  border-bottom-right-radius: $input-field-border-radius-bottom-right;
-  
   outline: $input-field-outline;
 
+  &:hover {
+    color: $input-field-hover-color;
+    background-color: $input-field-hover-background-color;
+    border: $input-field-hover-border;
+  }
+
+  &:focus {
+    color: $input-field-focus-color;
+    background-color: $input-field-focus-background-color;
+    border: $input-field-focus-border;
+  }
+
   &--info {
+    color: $input-field-info-color;
+    background-color: $input-field-info-background-color;
     border: $input-field-info-border;
+  
+    &:hover {
+      color: $input-field-info-hover-color;
+      background-color: $input-field-info-hover-background-color;
+      border: $input-field-info-hover-border;
+    }
+
+    &:focus {
+      color: $input-field-info-focus-color;
+      background-color: $input-field-info-focus-background-color;
+      border: $input-field-info-focus-border;
+    }
   }
 
   &--success {
+    color: $input-field-success-color;
+    background-color: $input-field-success-background-color;
     border: $input-field-success-border;
+  
+    &:hover {
+      color: $input-field-success-hover-color;
+      background-color: $input-field-success-hover-background-color;
+      border: $input-field-success-hover-border;
+    }
+
+    &:focus {
+      color: $input-field-success-focus-color;
+      background-color: $input-field-success-focus-background-color;
+      border: $input-field-success-focus-border;
+    }
   }
 
   &--warning {
+    color: $input-field-warning-color;
+    background-color: $input-field-warning-background-color;
     border: $input-field-warning-border;
+  
+    &:hover {
+      color: $input-field-warning-hover-color;
+      background-color: $input-field-warning-hover-background-color;
+      border: $input-field-warning-hover-border;
+    }
+
+    &:focus {
+      color: $input-field-warning-focus-color;
+      background-color: $input-field-warning-focus-background-color;
+      border: $input-field-warning-focus-border;
+    }
   }
 
   &--error {
+    color: $input-field-error-color;
+    background-color: $input-field-error-background-color;
     border: $input-field-error-border;
+
+    &:hover {
+      color: $input-field-error-hover-color;
+      background-color: $input-field-error-hover-background-color;
+      border: $input-field-error-hover-border;
+    }
+
+    &:focus {
+      color: $input-field-error-focus-color;
+      background-color: $input-field-error-focus-background-color;
+      border: $input-field-error-focus-border;
+    }
+  }
+
+  &--sm {  
+    @extend #{$input-field-sm-font};
+    
+    padding-top: $input-field-sm-padding-top;
+    padding-bottom: $input-field-sm-padding-bottom;
+    padding-left: $input-field-sm-padding-left;
+    padding-right: $input-field-sm-padding-right;
+    border-top-left-radius: $input-field-sm-border-radius-top-left;
+    border-top-right-radius: $input-field-sm-border-radius-top-right;
+    border-bottom-left-radius: $input-field-sm-border-radius-bottom-left;
+    border-bottom-right-radius: $input-field-sm-border-radius-bottom-right;
+  }
+
+  &--md {
+    @extend #{$input-field-md-font};
+    
+    padding-top: $input-field-md-padding-top;
+    padding-bottom: $input-field-md-padding-bottom;
+    padding-left: $input-field-md-padding-left;
+    padding-right: $input-field-md-padding-right;
+    border-top-left-radius: $input-field-md-border-radius-top-left;
+    border-top-right-radius: $input-field-md-border-radius-top-right;
+    border-bottom-left-radius: $input-field-md-border-radius-bottom-left;
+    border-bottom-right-radius: $input-field-md-border-radius-bottom-right;
+  }
+
+  &--lg {
+    @extend #{$input-field-lg-font};
+    
+    padding-top: $input-field-lg-padding-top;
+    padding-bottom: $input-field-lg-padding-bottom;
+    padding-left: $input-field-lg-padding-left;
+    padding-right: $input-field-lg-padding-right;
+    border-top-left-radius: $input-field-lg-border-radius-top-left;
+    border-top-right-radius: $input-field-lg-border-radius-top-right;
+    border-bottom-left-radius: $input-field-lg-border-radius-bottom-left;
+    border-bottom-right-radius: $input-field-lg-border-radius-bottom-right;
   }
 }
