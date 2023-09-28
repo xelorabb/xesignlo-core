@@ -3,7 +3,6 @@
     color: $btn-primary-color;
     background-color: $btn-primary-background-color;
     border: $btn-primary-border;
-    font-weight: $btn-primary-font-weight;
     
     &:hover {
       background-color: $btn-primary-hover-background-color;
@@ -11,7 +10,8 @@
   }
 
   &--md {
-    font-size: $btn-md-font-size;
+    @extend #{$btn-md-font};
+
     text-decoration: $btn-md-text-decoration;
 
     padding-top: $btn-md-padding-top;
@@ -26,7 +26,8 @@
   }
 
   &--lg {
-    font-size: $btn-lg-font-size;
+    @extend #{$btn-lg-font};
+
     text-decoration: $btn-lg-text-decoration;
     
     padding-top: $btn-lg-padding-top;

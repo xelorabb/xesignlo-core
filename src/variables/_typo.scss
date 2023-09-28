@@ -1,0 +1,116 @@
+$headline-size-1: (
+  "name": "headline-size-1",
+  "font-family": $typo-headline-size-1-font-family,
+  "font-weight": $typo-headline-size-1-font-weight,
+  "font-size": $typo-headline-size-1-font-size,
+  "line-height": $typo-headline-size-1-line-height
+);
+
+$headline-size-2: (
+  "name": "headline-size-2",
+  "font-family": $typo-headline-size-2-font-family,
+  "font-weight": $typo-headline-size-2-font-weight,
+  "font-size": $typo-headline-size-2-font-size,
+  "line-height": $typo-headline-size-2-line-height
+);
+
+$headline-size-3: (
+  "name": "headline-size-3",
+  "font-family": $typo-headline-size-3-font-family,
+  "font-weight": $typo-headline-size-3-font-weight,
+  "font-size": $typo-headline-size-3-font-size,
+  "line-height": $typo-headline-size-3-line-height
+);
+
+$headline-size-4: (
+  "name": "headline-size-4",
+  "font-family": $typo-headline-size-4-font-family,
+  "font-weight": $typo-headline-size-4-font-weight,
+  "font-size": $typo-headline-size-4-font-size,
+  "line-height": $typo-headline-size-4-line-height
+);
+
+$headline-size-5: (
+  "name": "headline-size-5",
+  "font-family": $typo-headline-size-5-font-family,
+  "font-weight": $typo-headline-size-5-font-weight,
+  "font-size": $typo-headline-size-5-font-size,
+  "line-height": $typo-headline-size-5-line-height
+);
+
+$headline-size-6: (
+  "name": "headline-size-6",
+  "font-family": $typo-headline-size-6-font-family,
+  "font-weight": $typo-headline-size-6-font-weight,
+  "font-size": $typo-headline-size-6-font-size,
+  "line-height": $typo-headline-size-6-line-height
+);
+
+$body-size-1: (
+  "name": "body-size-1",
+  "font-family": $typo-body-size-1-font-family,
+  "font-weight": $typo-body-size-1-font-weight,
+  "font-size": $typo-body-size-1-font-size,
+  "line-height": $typo-body-size-1-line-height
+);
+
+$body-size-2: (
+  "name": "body-size-2",
+  "font-family": $typo-body-size-2-font-family,
+  "font-weight": $typo-body-size-2-font-weight,
+  "font-size": $typo-body-size-2-font-size,
+  "line-height": $typo-body-size-2-line-height
+);
+
+$body-size-3: (
+  "name": "body-size-3",
+  "font-family": $typo-body-size-3-font-family,
+  "font-weight": $typo-body-size-3-font-weight,
+  "font-size": $typo-body-size-3-font-size,
+  "line-height": $typo-body-size-3-line-height
+);
+
+$btn-size-1: (
+  "name": "btn-size-1",
+  "font-family": $typo-btn-size-1-font-family,
+  "font-weight": $typo-btn-size-1-font-weight,
+  "font-size": $typo-btn-size-1-font-size,
+  "line-height": $typo-btn-size-1-line-height
+);
+
+$btn-size-2: (
+  "name": "btn-size-2",
+  "font-family": $typo-btn-size-2-font-family,
+  "font-weight": $typo-btn-size-2-font-weight,
+  "font-size": $typo-btn-size-2-font-size,
+  "line-height": $typo-btn-size-2-line-height
+);
+
+$btn-size-3: (
+  "name": "btn-size-3",
+  "font-family": $typo-btn-size-3-font-family,
+  "font-weight": $typo-btn-size-3-font-weight,
+  "font-size": $typo-btn-size-3-font-size,
+  "line-height": $typo-btn-size-3-line-height
+);
+
+$headline-sizes: (
+  $headline-size-1,
+  $headline-size-2,
+  $headline-size-3,
+  $headline-size-4,
+  $headline-size-5,
+  $headline-size-6
+);
+
+$body-sizes: (
+  $body-size-1,
+  $body-size-2,
+  $body-size-3
+);
+
+$btn-sizes: (
+  $btn-size-1,
+  $btn-size-2,
+  $btn-size-3
+);
