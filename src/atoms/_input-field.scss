@@ -91,39 +91,21 @@
   &--sm {  
     @extend #{$input-field-sm-font};
     
-    padding-top: $input-field-sm-padding-top;
-    padding-bottom: $input-field-sm-padding-bottom;
-    padding-left: $input-field-sm-padding-left;
-    padding-right: $input-field-sm-padding-right;
-    border-top-left-radius: $input-field-sm-border-radius-top-left;
-    border-top-right-radius: $input-field-sm-border-radius-top-right;
-    border-bottom-left-radius: $input-field-sm-border-radius-bottom-left;
-    border-bottom-right-radius: $input-field-sm-border-radius-bottom-right;
+    padding: $input-field-sm-padding;
+    border-radius: $input-field-sm-border-radius;
   }
 
   &--md {
     @extend #{$input-field-md-font};
     
-    padding-top: $input-field-md-padding-top;
-    padding-bottom: $input-field-md-padding-bottom;
-    padding-left: $input-field-md-padding-left;
-    padding-right: $input-field-md-padding-right;
-    border-top-left-radius: $input-field-md-border-radius-top-left;
-    border-top-right-radius: $input-field-md-border-radius-top-right;
-    border-bottom-left-radius: $input-field-md-border-radius-bottom-left;
-    border-bottom-right-radius: $input-field-md-border-radius-bottom-right;
+    padding: $input-field-md-padding;
+    border-radius: $input-field-md-border-radius;
   }
 
   &--lg {
     @extend #{$input-field-lg-font};
     
-    padding-top: $input-field-lg-padding-top;
-    padding-bottom: $input-field-lg-padding-bottom;
-    padding-left: $input-field-lg-padding-left;
-    padding-right: $input-field-lg-padding-right;
-    border-top-left-radius: $input-field-lg-border-radius-top-left;
-    border-top-right-radius: $input-field-lg-border-radius-top-right;
-    border-bottom-left-radius: $input-field-lg-border-radius-bottom-left;
-    border-bottom-right-radius: $input-field-lg-border-radius-bottom-right;
+    padding: $input-field-lg-padding;
+    border-radius: $input-field-lg-border-radius;
   }
 }

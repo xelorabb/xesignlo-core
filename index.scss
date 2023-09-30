@@ -8,8 +8,8 @@ body {
   background-color: $body-background-color;
 }
 
-@import "src/variables/variables";
-@import "src/helpers";
-@import "src/ions/ions";
-@import "src/atoms/atoms";
-@import "src/molecules/molecules";
+@import 'src/variables/variables';
+@import 'src/helpers';
+@import 'src/ions/ions';
+@import 'src/atoms/atoms';
+@import 'src/molecules/molecules';

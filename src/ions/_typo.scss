@@ -11,7 +11,8 @@
       font-family: quote($font-name);
       font-style: italic;
       font-weight: $weight;
-      src: url('#{$font-path}/#{$font-class}-#{$weight}-italic.woff2') format('woff2');
+      src: url('#{$font-path}/#{$font-class}-#{$weight}-italic.woff2')
+        format('woff2');
     }
 
     .font-#{$font-class}-#{$weight} {
@@ -30,11 +31,11 @@
 
 @mixin gen_font_classes($font-group) {
   @each $font-class in $font-group {
-    .#{map-get($font-class, "name")} {
-      font-family: map-get($font-class, "font-family");
-      font-weight: map-get($font-class, "font-weight");
-      font-size: map-get($font-class, "font-size");
-      line-height: map-get($font-class, "line-height");
+    .#{map-get($font-class, 'name')} {
+      font-family: map-get($font-class, 'font-family');
+      font-weight: map-get($font-class, 'font-weight');
+      font-size: map-get($font-class, 'font-size');
+      line-height: map-get($font-class, 'line-height');
     }
   }
 }

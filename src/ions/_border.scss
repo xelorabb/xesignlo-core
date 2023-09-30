@@ -2,25 +2,25 @@
   @each $name, $color in $colors {
     .bl-#{$name},
     .bx-#{$name},
-    .b-#{$name}  {
+    .b-#{$name} {
       border-left-color: $color;
     }
 
     .br-#{$name},
     .bx-#{$name},
-    .b-#{$name}  {
+    .b-#{$name} {
       border-right-color: $color;
     }
 
     .bt-#{$name},
     .by-#{$name},
-    .b-#{$name}  {
+    .b-#{$name} {
       border-top-color: $color;
     }
 
     .bb-#{$name},
     .by-#{$name},
-    .b-#{$name}  {
+    .b-#{$name} {
       border-bottom-color: $color;
     }
   }
@@ -45,7 +45,7 @@
       border-left-width: space($i);
       border-left-style: solid;
     }
-    
+
     .br-#{$i},
     .bx-#{$i},
     .b-#{$i} {
@@ -68,14 +68,14 @@
     }
   }
 
-  @each $name, $i in ("q": 0.25, "quarter": 0.25, "h": 0.5, "half": 0.5) {
+  @each $name, $i in ('q': 0.25, 'quarter': 0.25, 'h': 0.5, 'half': 0.5) {
     .bl-#{$name},
     .bx-#{$name},
     .b-#{$name} {
       border-left-width: space($i);
       border-left-style: solid;
     }
-    
+
     .br-#{$name},
     .bx-#{$name},
     .b-#{$name} {
@@ -97,7 +97,7 @@
       border-bottom-style: solid;
     }
   }
-  
+
   @for $i from 1 through 2 {
     .bl-#{$i}px,
     .bx-#{$i}px,
@@ -105,7 +105,7 @@
       border-left-width: #{$i}px;
       border-left-style: solid;
     }
-    
+
     .br-#{$i}px,
     .bx-#{$i}px,
     .b-#{$i}px {
@@ -138,7 +138,7 @@
     .b-radius-#{$i} {
       border-top-left-radius: space($i);
     }
-    
+
     .btr-radius-#{$i},
     .bt-radius-#{$i},
     .b-radius-#{$i} {
@@ -150,7 +150,7 @@
     .b-radius-#{$i} {
       border-bottom-left-radius: space($i);
     }
-    
+
     .bbr-radius-#{$i},
     .bb-radius-#{$i},
     .b-radius-#{$i} {

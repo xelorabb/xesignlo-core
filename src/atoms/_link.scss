@@ -2,10 +2,10 @@
   &--primary {
     color: $link-primary-color;
     text-decoration: $link-primary-text-decoration;
-    
+
     &:hover {
       color: $link-primary-hover-color;
-      text-decoration: $link-primary-hover-text-decoration;      
+      text-decoration: $link-primary-hover-text-decoration;
     }
   }
 
@@ -15,7 +15,7 @@
 
     &:hover {
       color: $link-secondary-hover-color;
-      text-decoration: $link-secondary-hover-text-decoration;      
+      text-decoration: $link-secondary-hover-text-decoration;
     }
   }
 
@@ -26,7 +26,7 @@
   &--md {
     @extend #{$link-md-font};
   }
-  
+
   &--lg {
     @extend #{$link-lg-font};
   }
