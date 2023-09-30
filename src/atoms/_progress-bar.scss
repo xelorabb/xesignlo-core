@@ -1,0 +1,96 @@
+.progress-bar {
+  &--primary {
+    background-color: $progress-bar-primary-background-color;
+    
+    div {
+      background-color: $progress-bar-primary-progress-background-color;
+    }
+    
+    label {
+      color: $progress-bar-primary-color;
+    }
+  }
+  
+  &--secondary {
+    background-color: $progress-bar-secondary-background-color;
+    
+    div {
+      background-color: $progress-bar-secondary-progress-background-color;
+    }
+    
+    label {
+      color: $progress-bar-secondary-color;
+    }
+  }
+
+  &--xs {
+    @extend #{$progress-bar-xs-font};
+
+    height: $progress-bar-xs-height;
+    border: $progress-bar-xs-border;
+    border-radius: $progress-bar-xs-border-radius;
+    
+    div {
+      height: $progress-bar-xs-height;
+    }
+  
+    label {
+      top: $progress-bar-xs-label-offset;
+    }
+  }
+
+  &--sm {
+    @extend #{$progress-bar-sm-font};
+
+    height: $progress-bar-sm-height;
+    border: $progress-bar-sm-border;
+    border-radius: $progress-bar-sm-border-radius;
+    
+    div {
+      height: $progress-bar-sm-height;
+    }
+  
+    label {
+      top: $progress-bar-sm-label-offset;
+    }
+  }
+
+  &--md {
+    @extend #{$progress-bar-md-font};
+
+    height: $progress-bar-md-height;
+    border: $progress-bar-md-border;
+    border-radius: $progress-bar-md-border-radius;
+    
+    div {
+      height: $progress-bar-md-height;
+    }
+  
+    label {
+      top: $progress-bar-md-label-offset;
+    }
+  }
+
+  &--lg {
+    @extend #{$progress-bar-lg-font};
+
+    height: $progress-bar-lg-height;
+    border: $progress-bar-lg-border;
+    border-radius: $progress-bar-lg-border-radius;
+    
+    div {
+      height: $progress-bar-lg-height;
+    }
+  
+    label {
+      top: $progress-bar-lg-label-offset;
+    }
+  }
+
+  label {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+}
