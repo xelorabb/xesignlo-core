@@ -9,6 +9,22 @@
     }
   }
 
+  &--sm {
+    @extend #{$btn-sm-font};
+
+    text-decoration: $btn-sm-text-decoration;
+
+    padding-top: $btn-sm-padding-top;
+    padding-bottom: $btn-sm-padding-bottom;
+    padding-left: $btn-sm-padding-left;
+    padding-right: $btn-sm-padding-right;
+
+    border-top-left-radius: $btn-sm-border-radius-top-left;
+    border-top-right-radius: $btn-sm-border-radius-top-right;
+    border-bottom-left-radius: $btn-sm-border-radius-bottom-left;
+    border-bottom-right-radius: $btn-sm-border-radius-bottom-right;
+  }
+
   &--md {
     @extend #{$btn-md-font};
 
