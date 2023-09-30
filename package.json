@@ -1,6 +1,6 @@
 {
   "name": "@xesignlo/core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Style core for xesignlo themes",
   "keywords": [
     "style",
@@ -12,8 +12,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/xelorabb/xesignlo-core.git"
-  },
-  "devDependencies": {
-    "sass": "^1.68.0"
   }
 }
