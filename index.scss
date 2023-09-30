@@ -4,6 +4,10 @@
   font-family: $root-font;
 }
 
+body {
+  background-color: $body-background-color;
+}
+
 @import "src/variables/variables";
 @import "src/helpers";
 @import "src/ions/ions";
