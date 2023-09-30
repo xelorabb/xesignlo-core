@@ -1,0 +1,33 @@
+.link {
+  &--primary {
+    color: $link-primary-color;
+    text-decoration: $link-primary-text-decoration;
+    
+    &:hover {
+      color: $link-primary-hover-color;
+      text-decoration: $link-primary-hover-text-decoration;      
+    }
+  }
+
+  &--secondary {
+    color: $link-secondary-color;
+    text-decoration: $link-secondary-text-decoration;
+
+    &:hover {
+      color: $link-secondary-hover-color;
+      text-decoration: $link-secondary-hover-text-decoration;      
+    }
+  }
+
+  &--sm {
+    @extend #{$link-sm-font};
+  }
+
+  &--md {
+    @extend #{$link-md-font};
+  }
+  
+  &--lg {
+    @extend #{$link-lg-font};
+  }
+}
