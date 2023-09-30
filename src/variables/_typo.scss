@@ -70,6 +70,14 @@ $body-size-3: (
   "line-height": $typo-body-size-3-line-height
 );
 
+$body-size-4: (
+  "name": "body-size-4",
+  "font-family": $typo-body-size-4-font-family,
+  "font-weight": $typo-body-size-4-font-weight,
+  "font-size": $typo-body-size-4-font-size,
+  "line-height": $typo-body-size-4-line-height
+);
+
 $btn-size-1: (
   "name": "btn-size-1",
   "font-family": $typo-btn-size-1-font-family,
@@ -106,7 +114,8 @@ $headline-sizes: (
 $body-sizes: (
   $body-size-1,
   $body-size-2,
-  $body-size-3
+  $body-size-3,
+  $body-size-4
 );
 
 $btn-sizes: (
